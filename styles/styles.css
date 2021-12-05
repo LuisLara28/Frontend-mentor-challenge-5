@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../images/bg-pattern-bottom.svg);
+  background-color: #19a2ae;
+  background-size: cover;
+  height: 100vh;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  position: relative;
+  width: 85%;
+  max-width: 318.75px;
+}
+
+.card .top-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card .top-img img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card picture {
+  position: relative;
+  top: -3.5rem;
+}
+
+.card picture img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.card .user-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  top: -2.5rem;
+}
+
+.card .user-description h3 {
+  color: #2d3248;
+}
+
+.card .user-description h5 {
+  margin-left: 0.75rem;
+  color: #6a6f81;
+  font-size: 1.2em;
+}
+
+.card h4 {
+  position: relative;
+  top: -2rem;
+  color: #6a6f81;
+  margin-bottom: 1rem;
+}
+
+.card hr {
+  border: none;
+  border-top: 0.1px solid #969696;
+  width: 100%;
+  position: relative;
+  top: -1rem;
+}
+
+.card .user-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 1rem 1.5rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.card .user-stats div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .user-stats div h2 {
+  font-size: 1.2em;
+  color: #2d3248;
+  font-weight: 700;
+}
+
+.card .user-stats div p {
+  color: #6a6f81;
+  font-size: 0.6em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=styles.css.map */
